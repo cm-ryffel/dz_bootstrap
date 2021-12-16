@@ -16,73 +16,107 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark header">
-    <div class="container-fluid px-5 fs-4">
-      <a class="navbar-brand" href="#">
-        <i class="fas fa-chalkboard-teacher fs-1 align-middle"></i>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Переключатель навигации">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Homework</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Settings</a>
-          </li>
-          <li class="nav-item">
-          </li>
-        </ul>
-        <a href="#"><img src="img/av_64.png" alt="avatar"></a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+      <div class="container-fluid px-5 fs-4">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-chalkboard-teacher fs-1 align-middle"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Homework</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+          <a href="#"><img src="img/av_64.png" alt="avatar"></a>
+        </div>
       </div>
-    </div>
-  </nav>
-  <div class="container-fluid px-5 ">
-    <h1 class="d-flex justify-content-center my-3">Dakota Greenaway (ABC_123)</h1>
-    <hr>
-    <div class="row mx-0">
-      <div class="col">
-        <h3 class="text-center">News</h3>
-        <table class="table">
-          <tbody>
-            <tr>
-              <td>
-                <img src="img/holiday.png" alt="">
-                <span>1 day ago</span>
-                <h4>Weekends</h4>
-                <p>Dear students, kindly be informed that there will be no lessons on 5th and 6th April at the Academy due to holiday</p>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td><div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="img/bank.png" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Заголовок карточки</h5>
-                      <p class="card-text">Это более широкая карта с вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
-                      <p class="card-text"><small class="text-muted">Последнее обновление 3 мин. назад</small></p>
+    </nav>
+    <div class="container-fluid px-5 ">
+      <h1 class="d-flex justify-content-center my-3">Dakota Greenaway (ABC_123)</h1>
+      <hr>
+      <div class="row mx-0">
+        <div class="col">
+          <h3 class="text-center">News</h3>
+          <div class="border rounded-3 news">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col" style="max-width: 24%;">
+                          <img src="img/holiday.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col">
+                          <div class="card-body position-relative">
+                            <h5 class="card-title d-inline-flex">Weekends</h5>
+                            <small class="text-muted d-inline-flex position-absolute end-0">20.03.2019</small>
+                            <p class="card-text">Dear students, kindly be informed that there will be no lessons on 5th
+                              and 6th April at the Academy due to holiday</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="col">
-        <h3 class="text-center">Rewards</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col">
+                          <div class="card-body position-relative">
+                            <h5 class="card-title d-inline-flex">Programming consultations</h5>
+                            <small class="text-muted d-inline-flex position-absolute end-0">3 days ago</small>
+                            <p class="card-text">This Sunday, March 26 at 1:00 pm the Academy will be hoolding
+                              programming consultations for first-year students</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col" style="max-width: 24%;">
+                          <img src="img/bank.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col">
+                          <div class="card-body position-relative">
+                            <h5 class="card-title d-inline-flex">Meeting with ABC bank</h5>
+                            <small class="text-muted d-inline-flex position-absolute end-0">20.03.2019</small>
+                            <p class="card-text">On Monday, March 27 at 7:00 pm, we invite you to a business meeting
+                              with ABC Bank</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col text-center my-3">
+            <button type="button" class="btn btn-secondary w-100">More</button>
+          </div>
+        </div>
+        <div class="col">
+          <h3 class="text-center">Rewards</h3>
+        </div>
       </div>
     </div>
   </div>

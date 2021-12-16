@@ -1,3 +1,10 @@
 .header {
     background-color: #1b5589;
 }
+.table{
+    margin-bottom: unset;
+}
+.news{
+    border: #dee2e6 solid 1px;
+    border-radius: 3px;
+}
