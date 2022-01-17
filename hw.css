@@ -1,0 +1,16 @@
+.header {
+    background-color: #1b5589;
+}
+.custom{
+    list-style-type: none;
+}
+.circled{
+    height: 15px;
+    width: 15px;
+}
+.included{
+    align-self: center;
+}
+.done{
+    background-color: #6fd084;
+}
